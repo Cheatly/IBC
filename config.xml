@@ -19,9 +19,9 @@
 
     <gap:platform name="android" />
 
-    <icon src="css/icon.png" />
+    <icon src="css/icons/icon.png" />
 
-    <gap:splash src="data/img/splash.jpg" />
+    <gap:splash src="css/icons/splash.jpg" />
 
     <feature name="http://api.phonegap.com/1.0/network"/>
 

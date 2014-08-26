@@ -138,13 +138,12 @@ i.app_icon {
 strong.wow{
     color:red;
     font-size: 28px;
-
 }
 
 .button.active {
-background: #73B9FF;
+    background: #73B9FF;
     border: #73B9FF;
-color: #fff;
-
+    color: #fff;
+    font-size:20px;
     font-weight: bold;
 }
