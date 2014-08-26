@@ -7,10 +7,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Ice Bucket Challenge Official (USA)</name>
+    <name>Ice Bucket Challenge for ALS (USA)</name>
 
     <description>
-        Official Support app. USA
+        Official Support App. USA - Every 1000 downloads I will donate 1$ to the ALS Association
     </description>
 
     <author href="http://www.kogel.it" email="ibc@kogel.it">
