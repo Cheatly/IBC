@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.cheatly.abgc"
+        id          = "com.kogel.ibc_usa"
         versionCode = "11"
         version     = "1.1.0" >
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Angry Birds Go Cheats</name>
+    <name>Ice Bucket Challenge Official (USA)</name>
 
     <description>
-        ABGC
+        Official Support app. USA
     </description>
 
-    <author href="http://www.cheat.ly" email="support@cheat.ly">
-        Cheatly
+    <author href="http://www.kogel.it" email="bin.mirko.gelsomini@gmail.com">
+        Mirko Gelsomini
     </author>
 
     <gap:platform name="android" />
