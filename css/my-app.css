@@ -1,0 +1,136 @@
+/* Tab bar icons */
+i.home {
+    width: 28px;
+    height: 30px;
+    background-image: url('icons/home.png');
+}
+.active i.home {
+    background-image: url('icons/home_active.png');
+}
+i.sport {
+    width: 28px;
+    height: 30px;
+    background-image: url('icons/sport.png');
+}
+.active i.sport {
+    background-image: url('icons/sport_active.png');
+}
+i.star {
+    width: 28px;
+    height: 30px;
+    background-image: url('icons/star.png');
+}
+.active i.star {
+    background-image: url('icons/star_active.png');
+}
+i.info {
+    width: 28px;
+    height: 30px;
+    background-image: url('icons/info.png');
+}
+.active i.info {
+    background-image: url('icons/info_active.png');
+}
+i.about {
+    width: 28px;
+    height: 30px;
+    background-image: url('icons/info.png');
+}
+i.close {
+    width: 23px;
+    height: 23px;
+    background-image: url('icons/close.png');
+}
+i.app_icon {
+    width: 43px;
+    height: 43px;
+    margin-top: -3px;
+    background-image: url('icons/icon.png');
+    border: solid 1px #73B9FF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+.app_icon_big{
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    border: solid 1px #f7f7f8;
+    width:80%;
+    height:80%;
+    max-width:512px;
+    max-height:512px;
+}
+
+.badge.badge-orange {
+    background: #73B9FF;
+    color: #fff;
+}
+
+.navbar {
+
+    background: #f7f7f8;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.list-block .item-link .item-inner {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg viewBox='0 0 60 120' xmlns='http://www.w3.org/2000/svg'><path d='m60 61.5-38.25 38.25-9.75-9.75 29.25-28.5-29.25-28.5 9.75-9.75z' fill='#333333'/></svg>");
+    background-size: 10px 20px;
+
+}
+
+.list-block .accordion-item-expanded .accordion-toggle .item-inner, .list-block .accordion-item-expanded > .item-link .item-inner {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg viewBox='0 0 60 120' xmlns='http://www.w3.org/2000/svg'><path d='m60 61.5-38.25 38.25-9.75-9.75 29.25-28.5-29.25-28.5 9.75-9.75z' transform='translate(115, 30) rotate(90)' fill='#73B9FF'/></svg>");
+    background-repeat: no-repeat;
+}
+
+.list-block .accordion-item .content-block, .list-block .accordion-item .list-block {
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 20px;
+}
+
+.list-block .item-title {
+    font-weight: bolder;
+}
+
+.searchbar {
+    background:#f7f7f8;
+}
+.searchbar .searchbar-cancel {
+    color: #73B9FF;
+}
+.navbar {
+    background: #73B9FF;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.navbar .center {
+    font-weight:bolder;
+}
+
+.list-block {
+    margin: 0px;
+}
+
+.center{
+    text-align: center;
+}
+.fright{
+    float:right;
+}
+.fleft{
+    float:left;
+}
+
+.desc{
+    margin-bottom: 10px;
+}
+
+#about_law{
+    font-size: 10px;
+}
+
+.row{
+    /*max-height: 400px;*/
+}
