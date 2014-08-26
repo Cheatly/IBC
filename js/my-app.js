@@ -63,6 +63,8 @@ $$('.tab-link').on('click', function () {//someone argue that touchstart is bett
 });
 
 function createContents(data){
+    data=shuffleArray(data);
+
     var html="";
     if(data.length===0){
         html="<div class='content-block'>Unfortunately there are no records here.<br/>Let's trust in a future update.</div>";
@@ -78,7 +80,7 @@ function createContents(data){
                 ytimg_start+data[i].url+ytimg_end+
                 '" width="70"></div>'+
                 '<div class="item-inner">'+
-                '<div class="item-title">'+(i+1)+') '+data[i].title+'</div>'+
+                '<div class="item-title"><!--'+(i+1)+')--> '+data[i].title+'</div>'+
                 '</div>'+
                 '</a>'+
                 '<div class="accordion-item-content">'+
@@ -150,3 +152,13 @@ $$('.ext-link').on('click', function () {
         window.open(linktarget, "_blank");
     }
 });
+
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+}
