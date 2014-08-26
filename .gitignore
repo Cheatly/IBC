@@ -35,3 +35,5 @@ Icon
 .Spotlight-V100
 .Trashes
 /build/
+/data/data - uncompressed.js
+/js/my-app - uncompressed.js
