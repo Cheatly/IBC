@@ -153,3 +153,14 @@ var handleJsonp = function (data) {
     //console.log(data);
     Start();
 };
+
+$$('.ext-link').on('click', function () {
+    var linktarget = $$(this).attr("href");
+    if (typeof navigator !== "undefined" && navigator.app) {
+        // Mobile device.
+        navigator.app.loadUrl(linktarget, {openExternal: true});
+    } else {
+        // Possible web browser
+        window.open(linktarget, "_blank");
+    }
+});
