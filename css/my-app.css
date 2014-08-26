@@ -105,7 +105,7 @@ i.app_icon {
 
 .navbar .center {
     font-weight:bolder;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
 }
 
@@ -133,4 +133,10 @@ i.app_icon {
 
 .row{
     /*max-height: 400px;*/
+}
+
+strong.wow{
+    color:red;
+    font-size: 18px;
+
 }
