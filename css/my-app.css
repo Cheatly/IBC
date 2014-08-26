@@ -15,6 +15,22 @@ i.sport {
 .active i.sport {
     background-image: url('icons/sport_active.png');
 }
+i.tv {
+    width: 28px;
+    height: 30px;
+    background-image: url('icons/tv.png');
+}
+.active i.tv {
+    background-image: url('icons/tv_active.png');
+}
+i.music {
+    width: 28px;
+    height: 30px;
+    background-image: url('icons/music.png');
+}
+.active i.music {
+    background-image: url('icons/music_active.png');
+}
 i.star {
     width: 28px;
     height: 30px;
@@ -34,7 +50,7 @@ i.info {
 i.about {
     width: 28px;
     height: 30px;
-    background-image: url('icons/info.png');
+    background-image: url('icons/info_white.png');
 }
 i.close {
     width: 23px;
@@ -53,14 +69,7 @@ i.app_icon {
 
 }
 .app_icon_big{
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    border-radius: 16px;
-    border: solid 1px #f7f7f8;
-    width:80%;
-    height:80%;
-    max-width:512px;
-    max-height:512px;
+    max-width:90%;
 }
 
 .badge.badge-orange {
@@ -72,17 +81,6 @@ i.app_icon {
 
     background: #f7f7f8;
     border-bottom: 1px solid #c4c4c4;
-}
-
-.list-block .item-link .item-inner {
-    background-image: url("data:image/svg+xml;charset=utf-8,<svg viewBox='0 0 60 120' xmlns='http://www.w3.org/2000/svg'><path d='m60 61.5-38.25 38.25-9.75-9.75 29.25-28.5-29.25-28.5 9.75-9.75z' fill='#333333'/></svg>");
-    background-size: 10px 20px;
-
-}
-
-.list-block .accordion-item-expanded .accordion-toggle .item-inner, .list-block .accordion-item-expanded > .item-link .item-inner {
-    background-image: url("data:image/svg+xml;charset=utf-8,<svg viewBox='0 0 60 120' xmlns='http://www.w3.org/2000/svg'><path d='m60 61.5-38.25 38.25-9.75-9.75 29.25-28.5-29.25-28.5 9.75-9.75z' transform='translate(115, 30) rotate(90)' fill='#73B9FF'/></svg>");
-    background-repeat: no-repeat;
 }
 
 .list-block .accordion-item .content-block, .list-block .accordion-item .list-block {
