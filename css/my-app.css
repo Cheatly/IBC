@@ -140,3 +140,11 @@ strong.wow{
     font-size: 18px;
 
 }
+
+.button.active {
+background: #73B9FF;
+    border: #73B9FF;
+color: #fff;
+
+    font-weight: bold;
+}

@@ -61,15 +61,6 @@ var data = new Array();
 
 data[l]= new Data(l);
 
-data[l].info.title="Ice Bucket Challenge";
-data[l].info.title_plus="(USA)";
-data[l].info.numbers="1000";
-data[l].info.money="1$";
-data[l].info.association="ALS Association";
-data[l].info.description='The Ice Bucket Challenge has succeeded in raising millions of dollars for ALS research. Unfortunately it has also spread the word to millions and faced criticism, as many who do not donate still post the video and nominate their friends.<br/><br/>The idea behind this app. is to raise money just by downloading it. <br/><br/><center><strong class="wow">Every '+data[l].info.numbers+' downloads the creator will donate '+data[l].info.money+' to the '+data[l].info.association+'</strong></center><br/><br/><center>So, thanks for your download! <strong>You are giving a little help</strong>, but if you want to do more you can <a class="button ext-link" href="mailto:ibc@kogel.it">contact the developer</a> and increase the amount.</center><br/><br/>';
-
-data[l].info.image="<center><img src='css/icons/init.png' class='app_icon_big'></img></center>";
-
 data[l].info.about="";
 
 data[l].info.about_thanks="This app is powered by <a class='ext-link' target='_blank' href='http://www.kogel.it'>Mirko Gelsomini</a> and <a>Samantha Marchesi</a>";

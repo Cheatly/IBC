@@ -12,9 +12,7 @@ var $$ = Dom7;
 var myApp = new Framework7({
     onPageBeforeInit: function (app, page) {
 
-        if (page.name === 'page-1') {
-            $$("#navbar_1_title").html(window.data[loc].info.title+" "+window.data[loc].info.title_plus);
-        }else if(page.name === 'page-2'){
+        if(page.name === 'page-2'){
             $$("#navbar_2_title").html("Tv Celebrities");
             $$(".tab-link[data-tabn='tab-2']").find(".badge").html(window.data[loc].tv.length);
         }else if(page.name === 'page-3'){
@@ -33,25 +31,13 @@ var myApp = new Framework7({
     onPageInit: function (app, page) {
         //console.log(page.name+' initialized');
         var pg=$$(".page[data-page='"+page.name+"']");
-        if (page.name === 'page-1') {
-
-            $$(pg).find("[data-id='title']").html(window.data[loc].info.title+" "+window.data[loc].info.title_plus);
-            $$(pg).find("[data-id='content']").html(window.data[loc].info.description+window.data[loc].info.image);
-
-        }else if(page.name === 'page-2'){
-
+        if(page.name === 'page-2'){
             $$(pg).find("[data-id='content']").html(createContents(window.data[loc].tv));
-
         }else if(page.name === 'page-3'){
-
             $$(pg).find("[data-id='content']").html(createContents(window.data[loc].music));
-
         }else if(page.name === 'page-4'){
-
             $$(pg).find("[data-id='content']").html(createContents(window.data[loc].sport));
-
         }else if(page.name === 'page-5'){
-
             $$(pg).find("[data-id='content']").html(createContents(window.data[loc].other));
         }
 
@@ -101,7 +87,7 @@ function createContents(data){
                 '</div>'+
                 '</li>';
 
-         }
+        }
         html+="</ul>";
     }
     return html;
