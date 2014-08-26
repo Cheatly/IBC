@@ -13,13 +13,13 @@
         Official Support app. USA
     </description>
 
-    <author href="http://www.kogel.it" email="bin.mirko.gelsomini@gmail.com">
+    <author href="http://www.kogel.it" email="ibc@kogel.it">
         Mirko Gelsomini
     </author>
 
     <gap:platform name="android" />
 
-    <icon src="css/icons/icon.png" />
+    <icon src="css/icons/icon_mkt.png" />
 
     <gap:splash src="css/icons/splash.jpg" />
 
