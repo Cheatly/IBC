@@ -105,6 +105,8 @@ i.app_icon {
 
 .navbar .center {
     font-weight:bolder;
+    font-size: 20px;
+    color: white;
 }
 
 .list-block {
